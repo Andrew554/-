@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waK-uq-ywe">
+                                <rect key="frame" x="200" y="367" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CoY-Aj-KKo"/>
+                                    <constraint firstAttribute="width" constant="60" id="TBR-0O-r1d"/>
+                                </constraints>
+                                <state key="normal" title="选取图片"/>
+                                <connections>
+                                    <action selector="selectImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4u7-tR-YQo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PkV-uO-Swa">
+                                <rect key="frame" x="200" y="90" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="MP2-vk-ZD3"/>
+                                    <constraint firstAttribute="height" constant="200" id="rYB-pW-hFH"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.corderRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdK-QC-UGT">
+                                <rect key="frame" x="340" y="367" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="上传七牛"/>
+                                <connections>
+                                    <action selector="uploadQiniu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wop-hQ-o1L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fdK-QC-UGT" firstAttribute="centerY" secondItem="waK-uq-ywe" secondAttribute="centerY" id="EVS-bd-SyQ"/>
+                            <constraint firstItem="PkV-uO-Swa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="JY8-lb-mmQ"/>
+                            <constraint firstItem="fdK-QC-UGT" firstAttribute="trailing" secondItem="PkV-uO-Swa" secondAttribute="trailing" id="Qhx-pG-2Fj"/>
+                            <constraint firstItem="PkV-uO-Swa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9q-6B-Jfi"/>
+                            <constraint firstItem="waK-uq-ywe" firstAttribute="leading" secondItem="PkV-uO-Swa" secondAttribute="leading" id="fZf-eb-ECI"/>
+                            <constraint firstItem="fdK-QC-UGT" firstAttribute="width" secondItem="waK-uq-ywe" secondAttribute="width" id="hnl-qL-Ogv"/>
+                            <constraint firstItem="waK-uq-ywe" firstAttribute="top" secondItem="PkV-uO-Swa" secondAttribute="bottom" constant="77" id="jG7-Jj-E9a"/>
+                            <constraint firstItem="fdK-QC-UGT" firstAttribute="height" secondItem="waK-uq-ywe" secondAttribute="height" id="ufO-17-0yg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="PkV-uO-Swa" id="UT5-ru-gct"/>
+                        <outlet property="uploadBtn" destination="fdK-QC-UGT" id="Dg7-l9-6Vp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

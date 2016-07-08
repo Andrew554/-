@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01973D661D2EB7FF009FE85C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01973D651D2EB7FF009FE85C /* main.m */; };
+		01973D691D2EB7FF009FE85C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01973D681D2EB7FF009FE85C /* AppDelegate.m */; };
+		01973D6C1D2EB7FF009FE85C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01973D6B1D2EB7FF009FE85C /* ViewController.m */; };
+		01973D6F1D2EB7FF009FE85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01973D6D1D2EB7FF009FE85C /* Main.storyboard */; };
+		01973D711D2EB7FF009FE85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01973D701D2EB7FF009FE85C /* Assets.xcassets */; };
+		01973D741D2EB7FF009FE85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01973D721D2EB7FF009FE85C /* LaunchScreen.storyboard */; };
+		01973D7F1D2EB7FF009FE85C /* QiniuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01973D7E1D2EB7FF009FE85C /* QiniuDemoTests.m */; };
+		01973D8A1D2EB7FF009FE85C /* QiniuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01973D891D2EB7FF009FE85C /* QiniuDemoUITests.m */; };
+		2CE9ADC175B1244E38A606FE /* libPods-QiniuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D4B3934CC9F7774FE9D15A /* libPods-QiniuDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01973D7B1D2EB7FF009FE85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01973D591D2EB7FF009FE85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01973D601D2EB7FF009FE85C;
+			remoteInfo = QiniuDemo;
+		};
+		01973D861D2EB7FF009FE85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01973D591D2EB7FF009FE85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01973D601D2EB7FF009FE85C;
+			remoteInfo = QiniuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01973D611D2EB7FF009FE85C /* QiniuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01973D651D2EB7FF009FE85C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01973D671D2EB7FF009FE85C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01973D681D2EB7FF009FE85C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01973D6A1D2EB7FF009FE85C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01973D6B1D2EB7FF009FE85C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01973D6E1D2EB7FF009FE85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01973D701D2EB7FF009FE85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01973D731D2EB7FF009FE85C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01973D751D2EB7FF009FE85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01973D7A1D2EB7FF009FE85C /* QiniuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01973D7E1D2EB7FF009FE85C /* QiniuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuDemoTests.m; sourceTree = "<group>"; };
+		01973D801D2EB7FF009FE85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01973D851D2EB7FF009FE85C /* QiniuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01973D891D2EB7FF009FE85C /* QiniuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuDemoUITests.m; sourceTree = "<group>"; };
+		01973D8B1D2EB7FF009FE85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D4B3934CC9F7774FE9D15A /* libPods-QiniuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QiniuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A41895AF1D1295218D3941B /* Pods-QiniuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuDemo/Pods-QiniuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C13F7A0B36F8C209EBBFE11A /* Pods-QiniuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiniuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiniuDemo/Pods-QiniuDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01973D5E1D2EB7FF009FE85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE9ADC175B1244E38A606FE /* libPods-QiniuDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D771D2EB7FF009FE85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D821D2EB7FF009FE85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01973D581D2EB7FF009FE85C = {
+			isa = PBXGroup;
+			children = (
+				01973D631D2EB7FF009FE85C /* QiniuDemo */,
+				01973D7D1D2EB7FF009FE85C /* QiniuDemoTests */,
+				01973D881D2EB7FF009FE85C /* QiniuDemoUITests */,
+				01973D621D2EB7FF009FE85C /* Products */,
+				99075CA14648A6850AD66750 /* Pods */,
+				5F6829423BBB9A1B71B85BA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01973D621D2EB7FF009FE85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01973D611D2EB7FF009FE85C /* QiniuDemo.app */,
+				01973D7A1D2EB7FF009FE85C /* QiniuDemoTests.xctest */,
+				01973D851D2EB7FF009FE85C /* QiniuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01973D631D2EB7FF009FE85C /* QiniuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01973D671D2EB7FF009FE85C /* AppDelegate.h */,
+				01973D681D2EB7FF009FE85C /* AppDelegate.m */,
+				01973D6A1D2EB7FF009FE85C /* ViewController.h */,
+				01973D6B1D2EB7FF009FE85C /* ViewController.m */,
+				01973D6D1D2EB7FF009FE85C /* Main.storyboard */,
+				01973D701D2EB7FF009FE85C /* Assets.xcassets */,
+				01973D721D2EB7FF009FE85C /* LaunchScreen.storyboard */,
+				01973D751D2EB7FF009FE85C /* Info.plist */,
+				01973D641D2EB7FF009FE85C /* Supporting Files */,
+			);
+			path = QiniuDemo;
+			sourceTree = "<group>";
+		};
+		01973D641D2EB7FF009FE85C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01973D651D2EB7FF009FE85C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01973D7D1D2EB7FF009FE85C /* QiniuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01973D7E1D2EB7FF009FE85C /* QiniuDemoTests.m */,
+				01973D801D2EB7FF009FE85C /* Info.plist */,
+			);
+			path = QiniuDemoTests;
+			sourceTree = "<group>";
+		};
+		01973D881D2EB7FF009FE85C /* QiniuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01973D891D2EB7FF009FE85C /* QiniuDemoUITests.m */,
+				01973D8B1D2EB7FF009FE85C /* Info.plist */,
+			);
+			path = QiniuDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F6829423BBB9A1B71B85BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D4B3934CC9F7774FE9D15A /* libPods-QiniuDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99075CA14648A6850AD66750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A41895AF1D1295218D3941B /* Pods-QiniuDemo.debug.xcconfig */,
+				C13F7A0B36F8C209EBBFE11A /* Pods-QiniuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01973D601D2EB7FF009FE85C /* QiniuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01973D8E1D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemo" */;
+			buildPhases = (
+				4A8D78BE6157BBB88D7A64FC /* [CP] Check Pods Manifest.lock */,
+				01973D5D1D2EB7FF009FE85C /* Sources */,
+				01973D5E1D2EB7FF009FE85C /* Frameworks */,
+				01973D5F1D2EB7FF009FE85C /* Resources */,
+				2873C7B2BF32E1FDEAB096D2 /* [CP] Embed Pods Frameworks */,
+				1789F1A0268FC046BAF9C0B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuDemo;
+			productName = QiniuDemo;
+			productReference = 01973D611D2EB7FF009FE85C /* QiniuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01973D791D2EB7FF009FE85C /* QiniuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01973D911D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemoTests" */;
+			buildPhases = (
+				01973D761D2EB7FF009FE85C /* Sources */,
+				01973D771D2EB7FF009FE85C /* Frameworks */,
+				01973D781D2EB7FF009FE85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01973D7C1D2EB7FF009FE85C /* PBXTargetDependency */,
+			);
+			name = QiniuDemoTests;
+			productName = QiniuDemoTests;
+			productReference = 01973D7A1D2EB7FF009FE85C /* QiniuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01973D841D2EB7FF009FE85C /* QiniuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01973D941D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemoUITests" */;
+			buildPhases = (
+				01973D811D2EB7FF009FE85C /* Sources */,
+				01973D821D2EB7FF009FE85C /* Frameworks */,
+				01973D831D2EB7FF009FE85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01973D871D2EB7FF009FE85C /* PBXTargetDependency */,
+			);
+			name = QiniuDemoUITests;
+			productName = QiniuDemoUITests;
+			productReference = 01973D851D2EB7FF009FE85C /* QiniuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01973D591D2EB7FF009FE85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Andrew554;
+				TargetAttributes = {
+					01973D601D2EB7FF009FE85C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K68RHF34H8;
+					};
+					01973D791D2EB7FF009FE85C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K68RHF34H8;
+						TestTargetID = 01973D601D2EB7FF009FE85C;
+					};
+					01973D841D2EB7FF009FE85C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K68RHF34H8;
+						TestTargetID = 01973D601D2EB7FF009FE85C;
+					};
+				};
+			};
+			buildConfigurationList = 01973D5C1D2EB7FF009FE85C /* Build configuration list for PBXProject "QiniuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01973D581D2EB7FF009FE85C;
+			productRefGroup = 01973D621D2EB7FF009FE85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01973D601D2EB7FF009FE85C /* QiniuDemo */,
+				01973D791D2EB7FF009FE85C /* QiniuDemoTests */,
+				01973D841D2EB7FF009FE85C /* QiniuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01973D5F1D2EB7FF009FE85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01973D741D2EB7FF009FE85C /* LaunchScreen.storyboard in Resources */,
+				01973D711D2EB7FF009FE85C /* Assets.xcassets in Resources */,
+				01973D6F1D2EB7FF009FE85C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D781D2EB7FF009FE85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D831D2EB7FF009FE85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1789F1A0268FC046BAF9C0B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuDemo/Pods-QiniuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2873C7B2BF32E1FDEAB096D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiniuDemo/Pods-QiniuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A8D78BE6157BBB88D7A64FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01973D5D1D2EB7FF009FE85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01973D6C1D2EB7FF009FE85C /* ViewController.m in Sources */,
+				01973D691D2EB7FF009FE85C /* AppDelegate.m in Sources */,
+				01973D661D2EB7FF009FE85C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D761D2EB7FF009FE85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01973D7F1D2EB7FF009FE85C /* QiniuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01973D811D2EB7FF009FE85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01973D8A1D2EB7FF009FE85C /* QiniuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01973D7C1D2EB7FF009FE85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01973D601D2EB7FF009FE85C /* QiniuDemo */;
+			targetProxy = 01973D7B1D2EB7FF009FE85C /* PBXContainerItemProxy */;
+		};
+		01973D871D2EB7FF009FE85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01973D601D2EB7FF009FE85C /* QiniuDemo */;
+			targetProxy = 01973D861D2EB7FF009FE85C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01973D6D1D2EB7FF009FE85C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01973D6E1D2EB7FF009FE85C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01973D721D2EB7FF009FE85C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01973D731D2EB7FF009FE85C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01973D8C1D2EB7FF009FE85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01973D8D1D2EB7FF009FE85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01973D8F1D2EB7FF009FE85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A41895AF1D1295218D3941B /* Pods-QiniuDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		01973D901D2EB7FF009FE85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13F7A0B36F8C209EBBFE11A /* Pods-QiniuDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		01973D921D2EB7FF009FE85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuDemo.app/QiniuDemo";
+			};
+			name = Debug;
+		};
+		01973D931D2EB7FF009FE85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiniuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuDemo.app/QiniuDemo";
+			};
+			name = Release;
+		};
+		01973D951D2EB7FF009FE85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuDemo;
+			};
+			name = Debug;
+		};
+		01973D961D2EB7FF009FE85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiniuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqut.andrew554.QiniuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiniuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01973D5C1D2EB7FF009FE85C /* Build configuration list for PBXProject "QiniuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01973D8C1D2EB7FF009FE85C /* Debug */,
+				01973D8D1D2EB7FF009FE85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01973D8E1D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01973D8F1D2EB7FF009FE85C /* Debug */,
+				01973D901D2EB7FF009FE85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01973D911D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01973D921D2EB7FF009FE85C /* Debug */,
+				01973D931D2EB7FF009FE85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01973D941D2EB7FF009FE85C /* Build configuration list for PBXNativeTarget "QiniuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01973D951D2EB7FF009FE85C /* Debug */,
+				01973D961D2EB7FF009FE85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01973D591D2EB7FF009FE85C /* Project object */;
+}
